@@ -1,0 +1,9 @@
+name: octo-rag
+channels:
+  - conda-forge
+  - defaults
+  - nodefaults
+dependencies:
+  - python=3.12.0
+  - python-dotenv
+  - llama-index
